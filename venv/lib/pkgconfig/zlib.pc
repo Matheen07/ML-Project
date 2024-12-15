@@ -1,0 +1,13 @@
+prefix=/Users/mohammadmatheen./Documents/ML-Projects/venv
+exec_prefix=/Users/mohammadmatheen./Documents/ML-Projects/venv
+libdir=/Users/mohammadmatheen./Documents/ML-Projects/venv/lib
+sharedlibdir=/Users/mohammadmatheen./Documents/ML-Projects/venv/lib
+includedir=/Users/mohammadmatheen./Documents/ML-Projects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
